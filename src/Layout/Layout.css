@@ -1,0 +1,24 @@
+.header-nav {
+  display: flex;
+  gap: 20px;
+  flex-direction: row-reverse;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.nav-link:hover {
+  background-color: #ddd;
+}
+
+.nav-link.active {
+  color: white;
+  background-color: #007bff;
+  font-weight: 700;
+}
